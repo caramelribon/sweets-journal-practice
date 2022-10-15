@@ -15,8 +15,10 @@
 export default {};
 </script>
 
-<style>
-.user-btn-color {
-  color: #8d8985;
+<style lang="scss">
+header {
+  .user-btn-color {
+    color: $gray_normal;
+  }
 }
 </style>
