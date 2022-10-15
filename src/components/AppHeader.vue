@@ -1,8 +1,7 @@
 <template>
-  <header class="z-1">
+  <header class="w-full fixed">
     <nav>
       <div class="flex justify-end items-center
-                  w-full
                   px-3 py-3"
       >
         <div class="relative">
@@ -15,6 +14,7 @@
           <!-- User Information (ユーザ情報) -->
           <span class="user-information
                        absolute
+                       z-2
                        right-12
                        w-40 h-52
                        bg-light-gray"
